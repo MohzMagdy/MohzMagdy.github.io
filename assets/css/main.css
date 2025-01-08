@@ -3925,3 +3925,19 @@ input, select, textarea {
 			}
 
 		}
+
+		.thumbnail-wrapper {
+			width: 100%;
+			display: flex; /* Centering */
+			justify-content: center; /* Horizontally center */
+			align-items: center; /* Vertically center */
+			overflow: hidden; /* Prevent overflow */
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+		}
+		
+		.thumbnail-wrapper img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain; /* Ensures image scales proportionally */
+		}
+		
