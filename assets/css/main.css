@@ -1807,7 +1807,7 @@ input, select, textarea {
 	.box {
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		margin-bottom: 2em;
+		margin-bottom: 0;
 		padding: 1.5em;
 	}
 
@@ -1820,7 +1820,7 @@ input, select, textarea {
 		.box.alt {
 			border: 0;
 			border-radius: 0;
-			padding: 0;
+			padding: 50;
 		}
 
 /* Button */
@@ -2566,6 +2566,14 @@ input, select, textarea {
 					color: #953d75;
 				}
 
+				.wrapper.style4 .icon.major:before {
+					color: #a68f42;
+				}
+
+				.wrapper.style4-alt .icon.major:before {
+					color: #827533;
+				}
+
 /* Image */
 
 	.image {
@@ -2940,6 +2948,14 @@ input, select, textarea {
 			width: calc(33.33333% - 2.5em);
 		}
 
+		.split.style4 > :nth-child(2n - 1) {
+			width: calc(66.66666% - 2.5em);
+		}
+
+		.split.style4 > :nth-child(2n) {
+			width: calc(33.33333% - 2.5em);
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.split > * {
@@ -2959,6 +2975,14 @@ input, select, textarea {
 			}
 
 			.split.style1 > :nth-child(2n) {
+				width: calc(33.33333% - 2em);
+			}
+
+			.split.style4 > :nth-child(2n - 1) {
+				width: calc(66.66666% - 2em);
+			}
+
+			.split.style4 > :nth-child(2n) {
 				width: calc(33.33333% - 2em);
 			}
 
@@ -3279,6 +3303,18 @@ input, select, textarea {
 
 		.wrapper.style3-alt {
 			background-color: #953d75;
+		}
+
+		.wrapper.style4 {
+			background-color: #5a2b61;
+		}
+
+		.wrapper.style4-alt {
+			background-color: #823358;
+		}
+
+		.wrapper.style-footer {
+			background-color: #493382;
 		}
 
 		.wrapper.fullscreen {
