@@ -3983,13 +3983,13 @@ input, select, textarea {
 		}
 		
 		.wrapper.style3 section:nth-child(4n+2) {
-			background-color: #ab4987; /* Color 2 */
+			background-color: #b3498c; /* Color 2 */
 		}
 		
 		.wrapper.style3 section:nth-child(4n+3) {
-			background-color: #994279; /* Color 3 */
+			background-color: #ae4086; /* Color 3 */
 		}
 
 		.wrapper.style3 section:nth-child(4n+4) {
-			background-color: #ab4987; /* Color 2 */
+			background-color: #b3498c; /* Color 2 */
 		}
